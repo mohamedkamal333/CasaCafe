@@ -1,0 +1,72 @@
+@import "../../variables/var.scss";
+
+.testimonial {
+    padding: 80px 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(245, 245, 245);
+    text-transform: capitalize;
+    .content-txt {
+        display: flex;
+        align-items: center;
+        .img {
+            width: 20%;
+            img {
+                width: 100%;
+            }
+        }
+        .d-txt-sh {
+            width: 77%;
+            margin: 0 3%;
+            h1 {
+                color: $firstColor;
+                margin-bottom: 20px;
+                font-weight: bold;
+                font-size: 38px;
+            }
+            p {
+                color: $txtColor;
+                font-size: 23px;
+            }
+        }
+    }
+}
+
+
+
+/* responsive */
+
+@media (max-width: 575.98px) { 
+
+    .testimonial {
+        .content-txt {
+            .d-txt-sh {
+                h1 {
+                    font-size: 20px;
+                }
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+ }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .testimonial {
+        .content-txt {
+            .d-txt-sh {
+                h1 {
+                    font-size: 20px;
+                }
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+ }
+
+

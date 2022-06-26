@@ -1,0 +1,20 @@
+@import "../../../variables/var.scss";
+
+.dropdown {
+    outline: none;
+    border: none;
+    .btn {
+        border: none;
+        outline: none;
+        color: $txtColor;
+        font-size: 20px;
+        i {
+            padding: 0 6px;
+        }
+    }
+
+}
+
+.dropdown-toggle::after {
+    margin: 0;
+}

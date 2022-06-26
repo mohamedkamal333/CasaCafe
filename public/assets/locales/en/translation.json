@@ -1,0 +1,103 @@
+{
+
+    "title": "casa cafe",
+    "lang": "language",
+    "navbarr": {
+        "contact": "contact us"
+    },
+    "header": {
+        "head": "Our efforts for your satisfaction",
+        "txtOne": "Our presence to satisfy the customer to achieve complete satisfaction for all customers",
+        "txtTow": "Product quality and best price",
+        "btnContact": "contact us"    
+    },
+    
+    "aboutUs": {
+        "title": "who are we?",
+        "txt": "We are an organization working in the field of food and beverages, based in the Kingdom of Saudi Arabia, and we strive to provide the best products and the best prices in the field of food and beverages."
+    },
+
+    "ourInterest": {
+        "title": "our interest",
+        "txt": "We care about you in these areas",
+        "itemOne": "coffee",
+        "itemTow": "Dairy products",
+        "itemThree": "meat"
+    },
+
+    "testImonial": {
+        "title": "We believe in development and innovation",
+        "txt": "We always strive to develop and facilitate easy access to products and innovative ways for all customers"
+    },
+
+    "services": {
+        "one": {
+            "head": "our vision",
+            "txt": "Providing everything that is new in the global markets easily and conveniently"
+        },
+        "tow": {
+            "head": "our mission",
+            "txt": "To be a pioneer in facilitating access to the best international products at the best prices"
+        }
+    },
+
+    "rateUs": {
+        "title": {
+            "head": "rate us",
+            "txt": "Those who believe in opportunity are not stopped by anything"
+        },
+        "one": {
+            "head": "Passion inspires us",
+            "txt": "We put our customers at the top of our priorities, passionate about our approach to revolutionizing the market, always enthusiastic and committed to providing innovative solutions aiming to be a leader"
+        },
+        "tow": {
+            "head": "Innovation drives us",
+            "txt": "With our organization, believers in opportunity are unstoppable. We are passionate about making a change in the traditional lifestyle"
+        },
+        "three": {
+            "head": "Quality motivates us",
+            "txt": "Quality is the basis of our work and will always be so. Our vending machines are state-of-the-art, our coffee products are in line with international coffee standards, and our dairy products are among the best."
+        },
+        "four": {
+            "head": "Great quality products",
+            "txt": "Our meat products, our coffee products are comparable to international coffee standards, and our dairy products are among the best."
+        },
+        "five": {
+            "head": "Quality in good reputation",
+            "txt": "Our products are recommended by medical professionals for our good reputation and scientific know-how. Our products are well received, so our customers are keen to buy them again and again and recommend them to others. We take great pride in knowing that our products are the best."
+        }
+    },
+
+    "OurBrands": {
+        "title": {
+            "head": "Our brands",
+            "txt": "We accelerate innovation by constantly expanding our partnerships"
+        },
+
+        "casa" : "casa cafe",
+        "btnShow": "To visit the site"
+    },
+
+    "ourInfluence": {
+        "head": "our influence",
+        "para": "Grow together to create impact",
+        "txtOne": "We enrich our society's choices by providing better choices, and we seek to promote positive values.",
+        "txtTow": "We offer a pioneering experience by providing products that can be obtained easily by using the easiest and smartest methods of distribution, we have created an innovative and comprehensive economic system with our high efforts and the participation of the people we work with"
+    },
+
+    "footer": {
+        "contact": "contact us",
+        "txt": "All rights reserved  2022",
+        "phone": "+966549693513"
+    },
+
+    "contactSend": {
+        "head": "Contact Us",
+        "name": "name",
+        "email": "email",
+        "phone": "phone",
+        "message": "Write us a message",
+        "submit": "send"
+    }
+
+}

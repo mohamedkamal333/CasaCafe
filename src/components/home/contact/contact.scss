@@ -1,0 +1,138 @@
+@import "../../variables/var.scss";
+
+.contact-us {
+    padding: 100px 0;
+    border-top: 1px solid #ddd;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-color: rgba(240, 240, 240, 0.521);
+    .title-up {
+        position: relative;
+        .cir-sh {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 10%;
+            background-color: $nextColor;
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            z-index: -1;
+            opacity: .8;
+        }
+    }
+    h1 {
+        color: $firstColor;
+        font-weight: bold;
+    }
+    .sub-form {
+        padding: 50px 0;
+        text-transform: capitalize;
+            label {
+                font-size: 18px;
+                font-style: italic;
+                color: rgb(0, 0, 0);
+                margin: 60px 0 10px;
+            }
+            input {
+                padding: 10px;
+                border: none;
+                border-bottom: 1px solid rgb(138, 138, 138);
+                background: transparent;
+                color: rgb(0, 0, 0);
+                width: 90%;
+                outline: none;
+            }
+
+            textarea {
+                padding: 10px;
+                height: 100px;
+                border: none;
+                border-bottom: 1px solid rgb(138, 138, 138);
+                color: rgb(0, 0, 0);
+                background: transparent;
+                width: 90%;
+                outline: none;
+            }
+
+            #sub-send {
+                width: 200px;
+                margin-top: 50px;
+                background-image: linear-gradient(
+                    to right,
+                    $firstColor,
+                    #0b1c49,
+                    #0b1c49,
+                    $firstColor,
+                  );
+                  text-transform: capitalize;
+                  background-size: 300% 100%;
+                  border: none;
+                  outline: none;
+                color: white;
+                padding: 13px;
+                border-radius: 4px;
+                font-size: 18px;
+                transition: all .2s ease-in-out;
+                &:hover {
+                    background-position: 100% 0;
+                }
+        }
+    }
+}
+
+[dir="rtl"] {
+    .title-up {
+        .cir-sh {
+            right: 10%;
+        }
+    }
+}
+
+
+/* responsive */
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .contact-us {
+        .sub-form {
+           input {
+               width: 100%;
+           }
+        }
+    }
+ }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .contact-us {
+        .sub-form {
+            input {
+                width: 100%;
+            }
+        }
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .contact-us {
+        .sub-form {
+            input {
+                width: 100%;
+            }
+        }
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+ }

@@ -1,0 +1,205 @@
+@import "../../variables/var.scss";
+
+.header {
+    background-image: url(./img-background/Milk-PNG-Photos.png);
+    height: calc(100vh - 130px);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    /* title text */
+
+    .title-txt {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px ;
+        text-transform: capitalize;
+        align-items: center;
+        h1 {
+            color: $firstColor;
+            font-weight: bold;
+            font-size: 50px;
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 22px;
+            font-weight: 500;
+        }
+
+        .cir-sh {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            background-color: $nextColor;
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            z-index: -1;
+            opacity: .8;
+            animation: popShoThree 5s ease-in-out infinite alternate;
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 10%;
+            background-color: $nextColor;
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            z-index: -1;
+            opacity: .8;
+            animation: popShowtow 5s ease-in-out infinite alternate 2s;
+        }
+
+        &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 20%;
+            background-color: $nextColor;
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            z-index: -1;
+            opacity: .8;
+            animation: popShowOne 5s ease-in-out infinite alternate 1s;
+        }
+
+        .btn-contact {
+            width: 300px;
+            background-image: linear-gradient(
+                to right,
+                $firstColor,
+                #0b1c49,
+                #0b1c49,
+                $firstColor,
+              );
+              text-transform: capitalize;
+              background-size: 300% 100%;
+            color: white;
+            border: none;
+            outline: none;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 20px;
+            transition: all .2s ease-in-out;
+            font-size: 20px;
+            &:hover {
+                background-position: 100% 0;
+            }
+        }
+    }
+
+}
+
+
+@keyframes popShowOne {
+    from {transform: translate(200px, 100px)}
+    to {transform: translate(0, 0)}
+}
+
+@keyframes popShowtow {
+    from {transform: translate(400px, 100px)}
+    to {transform: translate(0, 0)}
+}
+
+@keyframes popShoThree {
+    from {transform: translate(300px, 400px)}
+    to {transform: translate(0, 0)}
+}
+
+
+/* responsive */
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+
+    .header {
+        background-position: right;
+        height: calc(100vh - 71px);
+        .title-txt {
+            float: none;
+            padding: 80px 0 0;
+            width: 100%;
+            text-align: center;
+            h1 {
+                font-size: 40px;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 20px;
+            }
+            a {
+                .btn-contact {
+                    width: 200px;
+                    padding: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+ }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .header {
+        background-position: right;
+        height: calc(100vh - 57px);
+        .title-txt {
+            padding: 80px 0 0;
+            width: 100%;
+            text-align: center;
+            h1 {
+                font-size: 30px;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 20px;
+            }
+            a {
+                .btn-contact {
+                    width: 300px;
+                    padding: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .header {
+        background-position: right;
+        .title-txt {
+            padding: 60px 0 0;
+            text-align: center;
+            h1 {
+                font-size: 40px;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 20px;
+            }
+            a {
+                .btn-contact {
+                    width: 300px;
+                    padding: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+ }
